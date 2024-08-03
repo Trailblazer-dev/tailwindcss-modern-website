@@ -4,13 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./css/main.css",
-    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+    "build": "tailwindcss -i input.css -o ./src/styles.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.1.8"
-  }
+    "tailwindcss": "^3.4.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trailblazer-dev/tailwindcss-modern-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Trailblazer-dev/tailwindcss-modern-website/issues"
+  },
+  "homepage": "https://github.com/Trailblazer-dev/tailwindcss-modern-website#readme"
 }
