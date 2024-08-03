@@ -1,86 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--~~~~~~~~~~ CSS ~~~~~~~~~~-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
-    <!--~~~~~~~~~~ FONTAWESOME ~~~~~~~~~~-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--~~~~~~~~~~ REMIXICON~~~~~~~~~~-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
     <title>Banking website</title>
-</head>
-<body class="bg-color-random">
-
+  </head>
+  <body class="bg-color-primary text-color-white tracking-wider">
     <!--~~~~~~~~~~ HEADER ~~~~~~~~~~-->
     <header>
-   
+      <nav class="container flex justify-between items-center">
+        <div class="py-5 text-color-secondary font-bold text-3xl">
+          <a href="#home"><span class="text-white">Light</span> Code.</a>
+        </div>
+        <div class="">
+          <ul class="hidden lg:flex items-center space-x-6">
+            <li>
+              <a
+                href="#home"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#features"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Features</a
+              >
+            </li>
+            <li>
+              <a
+                href="#testimonials"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Testimonial</a
+              >
+            </li>
+            <li>
+              <a
+                href="#pricing"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="#blog"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <button
+                type="button"
+                class="bg-color-secondary px-9 py-3 rounded capitalize font-bold hover:opacity-80 duration-200"
+              >
+                free trial
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Mobile screen -->
+      <div class="lg:hidden cursor-pointer absolute right-0 top-1 mr-2 text-3xl" id="humburger">
+        <i class="ri-menu-line"></i>
+      </div>
+      <div id="menu" class="hidden bg-color-primary h-screen absolute inset-0 ">
+        <div class=" absolute right-0 top-2 text-3xl mr-4 cursor-pointer" id="close"><i class="ri-close-fill"></i></div>
+        <ul class="h-full grid place-items-center py-20">
+          <li>
+            <a
+              href="#home"
+              class="hover:text-color-secondary ease-in duration-200 nav__link" 
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#features"
+              class="hover:text-color-secondary ease-in duration-200 nav__link"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a
+              href="#testimonials"
+              class="hover:text-color-secondary ease-in duration-200 nav__link"
+              >Testimonial</a
+            >
+          </li>
+          <li>
+            <a
+              href="#pricing"
+              class="hover:text-color-secondary ease-in duration-200 nav__link"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a
+              href="#blog"
+              class="hover:text-color-secondary ease-in duration-200 nav__link"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="hover:text-color-secondary ease-in duration-200 nav__link"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <button
+              type="button"
+              class="bg-color-secondary px-9 py-3 rounded capitalize font-bold hover:opacity-80 duration-200"
+            >
+              free trial
+            </button>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <!--~~~~~~~~~~ MAIN ~~~~~~~~~~-->
     <main>
-        <!--~~~~~~~~~~ HOME ~~~~~~~~~~-->
-        <section id="home">
+      <!--~~~~~~~~~~ HOME ~~~~~~~~~~-->
+      <section id="home"></section>
 
-        </section>
+      <!--~~~~~~~~~~ FEATURES ~~~~~~~~~~=-->
+      <section id="features"></section>
 
-        <!--~~~~~~~~~~ FEATURES ~~~~~~~~~~=-->
-        <section id="features">
-           
-        </section>
+      <!--~~~~~~~~~~ SAVING MONEY ~~~~~~~~~~-->
+      <section id="saving-money"></section>
 
-        <!--~~~~~~~~~~ SAVING MONEY ~~~~~~~~~~-->
-        <section id="saving-money">
-          
-        </section>
+      <!--~~~~~~~~~~ HOW-IT-WORKS ~~~~~~~~~~-->
+      <section id="how-it-works"></section>
 
-        <!--~~~~~~~~~~ HOW-IT-WORKS ~~~~~~~~~~-->
-        <section id="how-it-works">
-          
-        </section>
+      <!--~~~~~~~~~~ TESTIMONIAL ~~~~~~~~~~-->
+      <section id="testimonial"></section>
 
-        <!--~~~~~~~~~~ TESTIMONIAL ~~~~~~~~~~-->
-        <section id="testimonial">
-        
-        </section>
+      <!--~~~~~~~~~~ PRICING ~~~~~~~~~~-->
+      <section id="pricing"></section>
 
-        <!--~~~~~~~~~~ PRICING ~~~~~~~~~~-->
-        <section id="pricing">
-           
-        </section>
+      <!--~~~~~~~~~~ BLOG ~~~~~~~~~~-->
+      <section id="blog"></section>
 
-        <!--~~~~~~~~~~ BLOG ~~~~~~~~~~-->
-        <section id="blog">
+      <!--~~~~~~~~~~ DOWNLOAD-APP ~~~~~~~~~~-->
+      <section id="download-app"></section>
 
-        </section>
+      <!--~~~~~~~~~~ CONTACT ~~~~~~~~~~-->
+      <section id="contact"></section>
 
-        <!--~~~~~~~~~~ DOWNLOAD-APP ~~~~~~~~~~-->
-        <section id="download-app">
-        
-        </section>
-
-        <!--~~~~~~~~~~ CONTACT ~~~~~~~~~~-->
-        <section id="contact">
-            
-        </section>
-
-        <!--~~~~~~~~~~ Footer ~~~~~~~~~~-->
-        <section id="footer">
-           
-        </section>
+      <!--~~~~~~~~~~ Footer ~~~~~~~~~~-->
+      <section id="footer"></section>
     </main>
 
     <!--~~~~~~~~~~ JS ~~~~~~~~~~-->
     <script>
+      // Mobile menu
 
-        // Mobile menu
-        
-
-        // testimonial
-        
+      // testimonial
     </script>
-</body>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
