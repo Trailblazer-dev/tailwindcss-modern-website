@@ -146,12 +146,8 @@
     <main>
       <!--~~~~~~~~~~ HOME ~~~~~~~~~~-->
       <section id="home relative">
-        <div
-          class="blob1"
-        ></div>
-        <div
-          class="blob2"
-        ></div>
+        <div class="blob1"></div>
+        <div class="blob2"></div>
         <div class="container py-20">
           <div class="flex flex-col items-center z-20 md:flex-row">
             <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
@@ -229,12 +225,8 @@
       <!--~~~~~~~~~~ SAVING MONEY ~~~~~~~~~~-->
       <section id="saving-money">
         <div class="container py-20 relative">
-            <div
-          class="blob1"
-        ></div>
-        <div
-          class="blob2"
-        ></div>
+          <div class="blob1"></div>
+          <div class="blob2"></div>
           <div class="flex flex-col items-center justify-between md:flex-row">
             <div class="mb-12 md:w-1/2">
               <img src="./img/hero3.png" alt="image" />
@@ -242,20 +234,180 @@
             <div class="text-center md:text-left md:w-1/2 md:ml-20">
               <h4 class="font-bold text-color-secondary mb-4">Saving Money</h4>
               <h1 class="title mb-4">Best Financing App To Save Your Money</h1>
-              <p class="mb-10 leading-relaxed">Best financing app ever in the world. Easy to use and very user friendly for mobile banking. You can control your card easily and send money some one just one click.</p>
-              <button type="button" class="btn ">Read More</button>
+              <p class="mb-10 leading-relaxed">
+                Best financing app ever in the world. Easy to use and very user
+                friendly for mobile banking. You can control your card easily
+                and send money some one just one click.
+              </p>
+              <button type="button" class="btn">Read More</button>
             </div>
           </div>
         </div>
       </section>
 
       <!--~~~~~~~~~~ HOW-IT-WORKS ~~~~~~~~~~-->
-      <section id="how-it-works">
-        
+      <section id="how-it-works" class="bg-color-primary-light">
+        <div class="container py-20">
+          <div class="text-center m-auto mb-20">
+            <h4 class="font-bold text-color-secondary mb-4">How It Works</h4>
+            <h1 class="title">Grow Up Your Money Saving</h1>
+          </div>
+          <div
+            class="flex flex-col items-center justify-between space-y-6 md:flex-row md:space-y-0 space-x-6"
+          >
+            <!-- card one -->
+            <div class="text-center cursor-pointer">
+              <div
+                class="relative bg-color-primary-dark inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-secondary ease-in duration-200"
+              >
+                <p
+                  class="text-6xl lg:after:content-[''] lg:after:flex lg:after:bg-[url('./img/line.png')] lg:after:absolute lg:after:top-4 lg:after:left-32 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52"
+                >
+                  1
+                </p>
+              </div>
+
+              <h3 class="text-xl font-bold py-4">Install The App</h3>
+              <p class="leading-relaxed">
+                We use an application designed a testing gnose to keep away
+              </p>
+            </div>
+            <!-- card two -->
+            <div class="text-center cursor-pointer">
+              <div
+                class="relative inline-block px-6 py-3 rounded-lg cursor-pointer bg-color-secondary ease-in duration-200"
+              >
+                <p
+                  class="text-6xl lg:after:content-[''] lg:after:flex lg:after:bg-[url('./img/line-bottom.png')] lg:after:absolute lg:after:top-10 lg:after:left-32 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52"
+                >
+                  2
+                </p>
+              </div>
+
+              <h3 class="text-xl font-bold py-4">Setup Your Profile</h3>
+              <p class="leading-relaxed">
+                We use an application designed a testing gnose to keep away
+              </p>
+            </div>
+            <!-- card three -->
+            <div class="text-center cursor-pointer">
+              <div
+                class="relative bg-color-primary-dark inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-secondary ease-in duration-200"
+              >
+                <p class="text-6xl">3</p>
+              </div>
+
+              <h3 class="text-xl font-bold py-4">Enjoy The Features!</h3>
+              <p class="leading-relaxed">
+                We use an application designed a testing gnose to keep away
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!--~~~~~~~~~~ TESTIMONIAL ~~~~~~~~~~-->
-      <section id="testimonial"></section>
+      <section id="testimonial">
+        <div class="container py-20">
+          <div class="text-center m-auto mb-20">
+            <h4 class="font-bold text-color-secondary mb-4">User Review</h4>
+            <h1 class="title">What Clients Say About Our App After Use It</h1>
+          </div>
+          <!-- review container -->
+          <div class="mt-8">
+            <div class="flex items-center justify-center flex-wrap">
+              <img
+                src="./img/user1.jpg"
+                alt="images"
+                class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic active-pic" onclick="showReview()"
+              />
+              <img
+                src="./img/user2.jpg"
+                alt="images"
+                class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()"
+              />
+              <img
+                src="./img/user3.jpg"
+                alt="images"
+                class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()"
+              />
+              <img
+                src="./img/user4.jpg"
+                alt="images"
+                class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()"
+              />
+              <img
+                src="./img/user5.jpg"
+                alt="images"
+                class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()"
+              />
+            </div>
+            <div
+              class="grid place-items-center text-center m-auto md:h-4/5 min-h-[40vh]"
+            >
+              <div class="user-text active-text">
+                <p class="md:text-2xl mb-6">
+                  "This should be used to tell a story and include any
+                  testimonials you might have about your product or service for
+                  your clients"!
+                </p>
+                <h4 class="font-bold text-color-secondary mb-1">
+                  Markin Nesus
+                </h4>
+                <p class="">IOS developer</p>
+              </div>
+
+              <div class="user-text">
+                <p class="md:text-2xl mb-6">
+                  "This should be used to tell a story and include any
+                  testimonials you might have about your product or service for
+                  your clients"!
+                </p>
+                <h4 class="font-bold text-color-secondary mb-1">
+                 Vera Duncan
+                </h4>
+                <p class="">Flutter developer</p>
+              </div>
+
+              <div class="user-text">
+                <p class="md:text-2xl mb-6">
+                  "This should be used to tell a story and include any
+                  testimonials you might have about your product or service for
+                  your clients"!
+                </p>
+                <h4 class="font-bold text-color-secondary mb-1">
+                  Pirtle Karol
+                </h4>
+                <p class="">Android developer</p>
+              </div>
+
+              <div class="user-text">
+                <p class="md:text-2xl mb-6">
+                  "This should be used to tell a story and include any
+                  testimonials you might have about your product or service for
+                  your clients"!
+                </p>
+                <h4 class="font-bold text-color-secondary mb-1">
+                  Mark Joe
+                </h4>
+                <p class="">React developer</p>
+              </div>
+
+              <div class="user-text">
+                <p class="md:text-2xl mb-6">
+                  "This should be used to tell a story and include any
+                  testimonials you might have about your product or service for
+                  your clients"!
+                </p>
+                <h4 class="font-bold text-color-secondary mb-1">
+                  Leila Domniuc
+                </h4>
+                <p class="">Angular developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!--~~~~~~~~~~ PRICING ~~~~~~~~~~-->
       <section id="pricing"></section>

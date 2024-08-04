@@ -15,3 +15,12 @@
 .blob2{
     @apply w-80 h-80 bg-color-secondary absolute bottom-10 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full;
 }
+.user-pic.active-pic{
+    border: 2px solid #ff7d3b;
+}
+.user-text{
+    display: none;
+}   
+.user-text .active-text{
+    display: block;
+}
