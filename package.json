@@ -4,7 +4,8 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./input.css -o ./src/styles.css --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Trailblazer-dev/tailwindcss-modern-website/issues"
   },
-  "homepage": "https://github.com/Trailblazer-dev/tailwindcss-modern-website#readme"
+  "homepage": "https://github.com/Trailblazer-dev/tailwindcss-modern-website#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
 }
