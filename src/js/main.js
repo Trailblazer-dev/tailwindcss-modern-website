@@ -1,3 +1,19 @@
+// header
+const header = document.getElementById("header");
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 100) {
+    header.classList.add("bg-color-primary-dark");
+    header.classList.add("shadow-md");
+    header.classList.add("shadow-color-gray");
+  } else {
+    header.classList.remove("bg-color-primary-dark");
+    header.classList.remove("shadow-md");
+    header.classList.remove("shadow-color-gray");  
+  }
+});
+
+
+
 // menu
 const menuBar = document.getElementById("humburger");
 const menu = document.getElementById("menu");
